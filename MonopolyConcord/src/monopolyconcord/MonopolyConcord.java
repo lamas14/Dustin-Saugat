@@ -9,11 +9,13 @@ package monopolyconcord;
  * @author Saugat
  */
 public class MonopolyConcord {
-
+    static public int numberOfPlayers;
+    static Board board;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        board = new Board();
+        board.setVisible(true);
     }
 }
